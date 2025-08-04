@@ -6,7 +6,7 @@ import Footer from "../Organisms/Footer";
 function Layout() {
   return (
     <>
-      <div className="flex flex-col min-h-screen bg-gray-100">
+      <div className="flex flex-col min-h-screen  ">
         <NavBar />
         <Outlet />
         <Footer />
