@@ -3,6 +3,8 @@ import React from 'react'
 import gurl from '../../assets/GIF/gurl.gif'
 import CoursesContent from '../Molecules/CoursesContent'
 import Divider from '../Atoms/Divider'
+import CategoriesContent from '../Molecules/CategoriesContent'
+
 
 
 function HomePage() {
@@ -18,6 +20,7 @@ function HomePage() {
      </div>
 
      <CoursesContent/>
+    <CategoriesContent/>
    
         </>
     )
